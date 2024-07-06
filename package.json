@@ -1,0 +1,30 @@
+{
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "faker": "^6.6.6",
+    "firebase": "^8.6.8",
+    "firebase-admin": "^12.2.0",
+    "nodemon": "^3.1.4",
+    "uuid": "^10.0.0"
+  },
+  "scripts": {
+    "start": "tsc && node ./dist/core/app.js",
+    "test": "jest ./testing"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.2",
+    "@types/chai": "^4.3.16",
+    "@types/cors": "^2.8.17",
+    "@types/mocha": "^10.0.7",
+    "@types/uuid": "^10.0.0",
+    "axios": "^1.7.2",
+    "chai": "^5.1.1",
+    "jest": "^29.7.0",
+    "mocha": "^10.6.0",
+    "ts-mocha": "^10.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.3"
+  }
+}
